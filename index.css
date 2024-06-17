@@ -1,0 +1,53 @@
+/* 各區背景圖 */
+#home{
+    background-image: url(./images/3.png);
+}
+#about{
+    background-image: url(./images/p1.jpg);
+}
+#news{
+    background-image: url(./images/p2.jpg);
+}
+#service{
+    background-image: url(./images/p3.jpg);
+}
+#contact{
+    background-image: url(./images/p4.jpg);
+}
+
+/* 將視窗寬高設定為滿版100% */
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* 各區共同背景相關設定 */
+section{
+    height: 100%;
+    /* 圖片不重複 */
+    background-repeat: no-repeat;
+    /* 等比例縮放圖片 */
+    background-size: cover;
+    /* 圖片從正中央往外擴 */
+    background-position: center center;
+    padding-top: 150px;
+}
+
+/* 各區的文字範圍 */
+.txt-bg{
+    background-color:rgba(255, 255, 255, .6);
+    /* 區塊圓角 */
+    border-radius: 50px;
+    /* 使文字在行內平均分散 左右貼齊邊緣 */
+    text-align: justify;
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+}
+
+.txt-bg h2{
+    text-align: center;
+}
+i{
+    color: blue;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <!-- 帶入bootstrap4 CSS外掛 -->
+    <link rel="stylesheet" href="./css/bootstrap-4.0.0.css">
+    <!-- bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="fontawesome-free-5.7.2-web/">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <!-- fixed-top=畫面捲動時選單浮在上面 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- 放網站LOGO或改成文字 -->
+        <!-- class後面加入捲動主程式的超連結js-scroll-trigger -->
+        <a class="navbar-brand js-scroll-trigger" href="#home">
+            <img src="./images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- mr-auto=靠左/預設值不用做 
+                 ml-auto=靠右 mx-auto=置中
+            -->
+            <ul class="navbar-nav ml-auto">
+                <!-- li class後面加入捲動主程式的超連結js-scroll-trigger -->
+                <li class="nav-item active">
+                    <a class="nav-link js-scroll-trigger" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#news">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 選單各區內容 -->
+    <!-- HOME -->
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="txt-bg">
+                    <h2><i class="bi bi-house-fill home-icon"></i>HOME</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus deleniti id iusto
+                        dignissimos delectus praesentium hic reprehenderit et, culpa dolorem molestiae tenetur ullam sed
+                        excepturi provident similique vero cumque. Id in quibusdam reprehenderit inventore reiciendis officia
+                        aut obcaecati vero. Vel unde molestiae impedit magni aliquam maiores eum, modi voluptate, porro voluptatibus
+                        dolorum quis beatae! Fuga animi voluptatem delectus ipsa deleniti atque esse veritatis repudiandae,
+                        natus et quis harum consequuntur sequi facere odit inventore, saepe perspiciatis accusantium qui
+                        illum corrupti hic ab iure eum! Laborum culpa omnis nobis, non facere itaque pariatur dolorum blanditiis
+                        minima, officia architecto repellat libero ipsum!</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="txt-bg">
+                    <h2>ABOUT</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus deleniti id iusto
+                        dignissimos delectus praesentium hic reprehenderit et, culpa dolorem molestiae tenetur ullam sed
+                        excepturi provident similique vero cumque. Id in quibusdam reprehenderit inventore reiciendis officia
+                        aut obcaecati vero. Vel unde molestiae impedit magni aliquam maiores eum, modi voluptate, porro voluptatibus
+                        dolorum quis beatae! Fuga animi voluptatem delectus ipsa deleniti atque esse veritatis repudiandae,
+                        natus et quis harum consequuntur sequi facere odit inventore, saepe perspiciatis accusantium qui
+                        illum corrupti hic ab iure eum! Laborum culpa omnis nobis, non facere itaque pariatur dolorum blanditiis
+                        minima, officia architecto repellat libero ipsum!</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- NEWS -->
+    <section id="news">
+            <div class="container">
+                <div class="row">
+                    <div class="txt-bg">
+                        <h2>NEWS</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus deleniti id iusto
+                            dignissimos delectus praesentium hic reprehenderit et, culpa dolorem molestiae tenetur ullam sed
+                            excepturi provident similique vero cumque. Id in quibusdam reprehenderit inventore reiciendis officia
+                            aut obcaecati vero. Vel unde molestiae impedit magni aliquam maiores eum, modi voluptate, porro voluptatibus
+                            dolorum quis beatae! Fuga animi voluptatem delectus ipsa deleniti atque esse veritatis repudiandae,
+                            natus et quis harum consequuntur sequi facere odit inventore, saepe perspiciatis accusantium qui
+                            illum corrupti hic ab iure eum! Laborum culpa omnis nobis, non facere itaque pariatur dolorum blanditiis
+                            minima, officia architecto repellat libero ipsum!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- SERVICE -->
+    <section id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="txt-bg">
+                        <h2>SERVICE</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus deleniti id iusto
+                            dignissimos delectus praesentium hic reprehenderit et, culpa dolorem molestiae tenetur ullam sed
+                            excepturi provident similique vero cumque. Id in quibusdam reprehenderit inventore reiciendis officia
+                            aut obcaecati vero. Vel unde molestiae impedit magni aliquam maiores eum, modi voluptate, porro voluptatibus
+                            dolorum quis beatae! Fuga animi voluptatem delectus ipsa deleniti atque esse veritatis repudiandae,
+                            natus et quis harum consequuntur sequi facere odit inventore, saepe perspiciatis accusantium qui
+                            illum corrupti hic ab iure eum! Laborum culpa omnis nobis, non facere itaque pariatur dolorum blanditiis
+                            minima, officia architecto repellat libero ipsum!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- CONTACT -->
+    <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="txt-bg">
+                        <h2>CONTACT</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus deleniti id iusto
+                            dignissimos delectus praesentium hic reprehenderit et, culpa dolorem molestiae tenetur ullam sed
+                            excepturi provident similique vero cumque. Id in quibusdam reprehenderit inventore reiciendis officia
+                            aut obcaecati vero. Vel unde molestiae impedit magni aliquam maiores eum, modi voluptate, porro voluptatibus
+                            dolorum quis beatae! Fuga animi voluptatem delectus ipsa deleniti atque esse veritatis repudiandae,
+                            natus et quis harum consequuntur sequi facere odit inventore, saepe perspiciatis accusantium qui
+                            illum corrupti hic ab iure eum! Laborum culpa omnis nobis, non facere itaque pariatur dolorum blanditiis
+                            minima, officia architecto repellat libero ipsum!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- jQurey主程式 -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <!-- 捲動主程式 -->
+    <script src="./js/freelancer.min.js"></script>
+    <!-- 轉場主程式 -->
+    <script src="./js/jquery.easing.min.js"></script>
+
+    <!-- bs主程式 -->
+    <script src="./js/bootstrap-4.0.0.js"></script>
+    <script src="./js/popper.min.js"></script>
+
+</body>
+
+</html>
