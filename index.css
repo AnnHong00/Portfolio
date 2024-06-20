@@ -1,19 +1,27 @@
 /* 各區背景圖 */
 #home{
-    background-image: url(./images/3.png);
+    background-image: url(./images/1.png);
+    background-color: #222A37;
 }
 #about{
-    background-image: url(./images/p1.jpg);
+    background-image: url(./images/about2.png);
+    /* background-color: rgb(255, 255, 255); */
+    background-color: #222A37;
 }
 #news{
-    background-image: url(./images/p2.jpg);
+    /* background-image: url(./images/p2.jpg); */
+    background-color: #222A37;
 }
 #service{
-    background-image: url(./images/p3.jpg);
+    /* background-image: url(./images/p3.jpg); */
+    background-color: #222A37;
+
 }
 #contact{
-    background-image: url(./images/p4.jpg);
+    /* background-image: url(./images/p4.jpg); */
+    background-color: #222A37;
 }
+
 
 /* 將視窗寬高設定為滿版100% */
 html,body{
@@ -30,24 +38,83 @@ section{
     background-size: cover;
     /* 圖片從正中央往外擴 */
     background-position: center center;
-    padding-top: 150px;
+    padding-top: 30px;
 }
 
 /* 各區的文字範圍 */
-.txt-bg{
+/* .txt-bg{
     background-color:rgba(255, 255, 255, .6);
-    /* 區塊圓角 */
+    區塊圓角
     border-radius: 50px;
-    /* 使文字在行內平均分散 左右貼齊邊緣 */
+    使文字在行內平均分散 左右貼齊邊緣
     text-align: justify;
     padding: 50px;
     width: 800px;
     margin: auto;
+} */
+
+/* .txt-bg h2{
+    text-align: center;
+} */
+/* i{
+    color: blue;
+} */
+
+h5{
+    color: #222A37;
+    font-family: Times, 微軟正黑體, 黑體;
+    margin: 0px;
 }
 
-.txt-bg h2{
-    text-align: center;
+.row{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    justify-content: center;
+
 }
-i{
-    color: blue;
+.row .box{
+    display: inline;
+
+}
+
+.row .box img{
+    /* border-radius: 15%; */
+    /* top:0;
+    right:0;
+    left:0;
+    bottom:0; */
+    margin: auto;
+    padding: 10px 20px;
+    display: inline-block;
+    float: none;
+    
+    
+}
+.txt{
+    width: 100%;
+    height: 30%;
+    margin: auto;
+}
+
+.txt h3{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 微軟雅黑, Times, 微軟正黑, 黑體;
+    letter-spacing: 5px;
+
+}
+
+.footer{
+    text-align: center;
+    color: #8d98a9;
+    padding: 30px;
+    font-family: 微軟雅黑, Times;
+    font-size: small;
 }
